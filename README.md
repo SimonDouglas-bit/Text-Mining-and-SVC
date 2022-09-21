@@ -24,16 +24,12 @@ precision, accuracy, recall, f1-score and support. These metrics are calculated 
 true positive, true negative, false positive, and false negative. The accuracy of this model
 is found to be 98%.
 The challenges associated with this model includes:
-i. Choosing the right kernel is not easy. The wrong kernel results to poor
-performance of the model.
-ii. SVM/SVC perform poorly in imbalanced data. The hyperplane may be skewed to
-the minority class when imbalanced data is used for training the model. Datapoints
-at the decision boundary of the hyperplane have a higher chance of being
-classified as negative.
-iii. The model is not suitable for large datasets as the complexity of SVM algorithm in
+1. Choosing the right kernel is not easy. The wrong kernel results to poor performance of the model.
+2. SVM/SVC perform poorly in imbalanced data. The hyperplane may be skewed to the minority class when imbalanced data is used for training the model. Datapoints at the decision boundary of the hyperplane have a higher chance of being classified as negative.
+3. The model is not suitable for large datasets as the complexity of SVM algorithm in
 training is highly dependent on the size of the dataset. The larger the dataset, the
 more time used in training and using the model. If the dataset is too large, it may
 become infeasible due to computational cost.
-iv. The hyperplane produced by SVM and kernels is hard to understand by human
+4. The hyperplane produced by SVM and kernels is hard to understand by human
 users.v. SVM only works in a real-valued space. A categorical attribute has to be
 converted from categorical values to numeric attributes.
