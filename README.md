@@ -36,6 +36,6 @@ converted from categorical values to numeric attributes.
 ## Jupyter Notebook
 [text mining and supervised learning.zip](https://github.com/SimonDouglas-bit/Text-Mining-and-SVC/files/9615493/text.mining.and.supervised.learning.zip)
 
-## Datase
+## Dataset
 [SPAM text message 20170820 - Data.csv](https://github.com/SimonDouglas-bit/Text-Mining-and-SVC/files/9615497/SPAM.text.message.20170820.-.Data.csv)
-t
+
